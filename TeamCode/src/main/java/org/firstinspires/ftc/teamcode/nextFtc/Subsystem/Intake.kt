@@ -10,6 +10,7 @@ import java.util.function.Supplier
 
 @Configurable
 object Intake : Subsystem {
+    //intake no work update is cooked error just go back to normal.
     private val motor = MotorEx("intake").reversed()
 
     class On(power: Double) : InstantCommand({ motor.power = power })

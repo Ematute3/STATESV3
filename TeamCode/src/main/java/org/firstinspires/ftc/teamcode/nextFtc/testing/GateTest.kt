@@ -10,7 +10,6 @@ import dev.nextftc.ftc.Gamepads
 import dev.nextftc.ftc.NextFTCOpMode
 import dev.nextftc.ftc.components.BulkReadComponent
 import org.firstinspires.ftc.teamcode.Subsystem.Gate
-import org.firstinspires.ftc.teamcode.Subsystem.Shooter.Turret.alliance
 @Configurable
 @TeleOp(name = "Gate Test", group = "Base Subsystem Tests")
 class GateTest: NextFTCOpMode() {

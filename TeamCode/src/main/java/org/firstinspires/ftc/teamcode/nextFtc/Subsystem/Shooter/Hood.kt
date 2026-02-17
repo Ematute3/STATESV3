@@ -5,7 +5,7 @@ import dev.nextftc.hardware.impl.ServoEx
 import dev.nextftc.hardware.positionable.SetPosition
 
 object Hood: Subsystem{
-
+//cooked no work doesnt even spin
     @JvmField var DOWN = 0.0;  // todo: tune
     @JvmField var CLOSE = 0.0;  // todo: tune
     @JvmField var MID = 0.0;  // todo: tune

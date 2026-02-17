@@ -11,7 +11,7 @@ import dev.nextftc.ftc.NextFTCOpMode
 import dev.nextftc.ftc.components.BulkReadComponent
 import org.firstinspires.ftc.teamcode.Subsystem.Gate
 import org.firstinspires.ftc.teamcode.Subsystem.Shooter.Hood
-import org.firstinspires.ftc.teamcode.Subsystem.Shooter.Turret.alliance
+
 @Configurable
 @TeleOp(name = "Hood Test", group = "Base Subsystem Tests")
 class HoodTest: NextFTCOpMode() {
